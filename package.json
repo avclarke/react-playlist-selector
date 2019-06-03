@@ -1,0 +1,25 @@
+{
+  "name": "react-spotify-playlists",
+  "version": "0.1.0",
+  "description": "React component for interacting with spotify playlists",
+  "private": false,
+  "author": "Adam Clarke",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "spotify-web-api-js": "^1.2.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
