@@ -1,5 +1,5 @@
 {
-  "name": "react-spotify-playlists",
+  "name": "react-playlist-selector",
   "version": "0.1.0",
   "description": "React component for interacting with spotify playlists",
   "private": false,
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "react": "^16.8.6",

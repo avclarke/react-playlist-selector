@@ -1,20 +1,23 @@
 ## React Spotify Playlists
 
-A react component for authenticating with Spotify and allowing a user to interact with their playlists.
+A react component for viewing and interact with an authenticated users Spotify playlists.
 
 ### Use
 
-Can only be used in a React app.
+For use inside react apps.
 
-`yarn add react-spotify-playlists`
+`yarn add react-playlist-selector`
 
 ```
-import PlaylistSelector from 'react-spotify-playlists'
+import PlaylistSelector from 'react-playlist-selector'
 <PlaylistSelector />
 ```
 
-### Build
+### Development
 
-`yarn`
-
+`yarn`  
 `yarn build`
+
+### TODO
+
+• Add support for other streaming services
